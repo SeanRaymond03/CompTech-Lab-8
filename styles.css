@@ -40,3 +40,14 @@ tr:nth-child(even) {
 /* Add hover effect on rows */
 tr:hover {
     background-color: #ddd;
+}
+
+/* Styling for the first row (header) */
+tr:first-child th {
+    border-top: 2px solid #007BFF;
+}
+
+/* Adding borders to the table */
+table, th, td {
+    border: 2px solid #007BFF;
+}
