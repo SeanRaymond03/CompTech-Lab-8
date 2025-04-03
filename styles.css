@@ -30,3 +30,13 @@ td {
     padding: 10px;
     text-align: center;
     border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row background color */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Add hover effect on rows */
+tr:hover {
+    background-color: #ddd;
